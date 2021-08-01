@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+label{
+  width: max-content;
+  font-size: 13px;
+  color: tomato;
+  border-bottom: .5px solid tomato;
+  margin: 1px 0;
+  font-weight: 500;
+}
+
+.card{
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.place{
+  font-weight: 700;
+}
+
+.desc{
+  font-size: 14px;
+}
+
+.username {
+  font-size: 14px;
+}
+
+.date {
+  font-size: 12px;
+}
+
+form {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.submitButton {
+  color: white;
+  background-color: tomato;
+  border-radius: 5px;
+  padding: 5px 0;
+  width: 100%;
+}
+
+.deleteButton {
+  color: white;
+  background-color: tomato;
+  border-radius: 5px;
+  padding: 5px 0;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.submitButton:hover {
+  background-color: mediumslateblue;
+}
+
+.deleteButton:hover {
+  background-color: red;
+}
+
+input{
+  border-bottom: 0.5px solid lightgray;
+}
+
+textarea {
+  border: 0.5px solid lightgray;
+}
+
+.button {
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout {
+  background-color: tomato;
+}
+
+.login {
+  background-color: mediumslateblue;
+  margin-right: 10px;
+}
+
+.register {
+  background-color: teal;
+}
+
+.buttons, .logout {
+  position: absolute;
+  top:10px;
+  right:20px;
+}
